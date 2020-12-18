@@ -1,0 +1,19 @@
+button.btn.edit {
+    background: green;
+    color: #fff;
+    width: 75px;
+}
+button.btn.delete {
+    color: #fff;
+    background: #f00;
+    width: 75px;
+}
+button.btn.view {
+    background: #333;
+    color: #fff;
+    width: 75px;
+}
+.mt-10
+{
+    margin-top: 10px;
+}

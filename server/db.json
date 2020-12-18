@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "firstName": "john",
+      "email": "john@gmail.com",
+      "phoneNumber": "66856455457",
+      "id": 1
+    },
+    {
+      "firstName": "Piag Johnson",
+      "email": "pejohnson1999@gmail.com",
+      "phoneNumber": "3154053631",
+      "id": 5
+    },
+    {
+      "firstName": "thabrez",
+      "email": "thabrez@gmail.com",
+      "phoneNumber": "0384575215",
+      "id": 6
+    }
+  ]
+}

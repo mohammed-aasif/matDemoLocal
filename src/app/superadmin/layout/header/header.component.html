@@ -1,0 +1,92 @@
+<header class="login_header" [class.myClass]="showClassName">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 logtext_wrap">
+        <div class="logtext">
+          <img id="menuburger" src="../../../../assets/images/mneubar.png" alt="icons">
+          <h2>{{headerMainTitle}}</h2>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 head_rgt_wrap">
+
+        <div class="head_rgt dropdown" id="notification_profile">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <div class="">
+
+              <div class="user-info">
+                
+                <div class="content-user-tlt">
+                  <span class="user-name"> <strong>Jones Ferdinand</strong>
+                  </span>
+                </div>
+                <img src="../../../assets/images/profile_pic.png" />
+
+              </div>
+            </div>
+
+            <div class="newhead_room dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+              <ul>
+                <li class="room_profiles">
+                  <a class="dropdown-item" routerLink="/superadmin/manager-profile">
+                    <div class="head_profiles">
+                      <div class="head_profiles_img"> 
+                      </div>
+                      <div class="head_profiles_content">
+                        <h3>Denzel Washington</h3>
+                        <span>View Profile Information</span>
+                      </div>
+
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" routerLink="/superadmin/manager-profile">Change Password</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" routerLink="/login">Logout <i class='fas fa-sign-out-alt'></i></a>
+                </li>
+
+              </ul>
+            </div>
+          </button>
+        </div>
+     
+        <div class="bell-notificaton">
+          <i class="fa fa-bell" (click)="bellButton()"></i>
+          <span class="badge badge-pill badge-warning notification">&nbsp;</span>
+          <!-- <div class="notifi_wrapper" *ngIf="noficationshow">
+            <div class="notification_list">
+              <div class="close_btn" (click)="closeButton()"><img src="../../../../assets/images/close_btn.png"></div>
+              <h2>Notifications <a href="#">Clear All</a></h2>
+              <ul class="notification_wrap">
+                <li *ngFor="let notificationList of notificationLead">
+                  <div class="notification_details">
+                    <i class="{{notificationList.notificationIcon}}"></i>
+                    <h1>{{notificationList.notificationListTitle}}</h1>
+                    <span>{{notificationList.notificationListsubTitle}}</span>
+                  </div>
+                  <p>{{notificationList.notificationListDescription}}</p>
+                </li>
+
+              </ul>
+            </div>
+          </div> -->
+        </div>
+        <div class="peakSearch">
+          <div class="inputRelates">
+            <input type="text" class="form-control inputTransparent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+              <circle cx="8.9375" cy="8.9375" r="8.1875" stroke="#C5C7CD" stroke-width="1.5"/>
+              <path d="M15.125 15.125L20.625 20.625" stroke="#C5C7CD" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
